@@ -1,12 +1,23 @@
 using System;
 
-namespace Hello
+class BooleanExample
 {
-    class Program
+    static void Main(string[] args)
     {
-        static void Main()
+
+        bool isDay = true;
+
+        if (isDay)
         {
-            Console.WriteLine("Hello My Wolrd !!@Mark");
+            Console.WriteLine("Good morning.");
         }
+        else
+        {
+            Console.WriteLine("Good night.");
+        }
+
+        bool gameOver = false;
+        Console.WriteLine("Game over = {0}", gameOver);
+
     }
 }
