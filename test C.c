@@ -1,23 +1,17 @@
 using System;
-
-class BooleanExample
+class NumberExsample
 {
-    static void Main(string[] args)
+    static void Main (string[] args)
     {
+        int apple = 10;
+        int mango = 5;
+        int totalFruit = apple + mango;
 
-        bool isDay = true;
+        Console.WriteLine("We have {0} fruits in the basket", totalFruit);
 
-        if (isDay)
-        {
-            Console.WriteLine("Good morning.");
-        }
-        else
-        {
-            Console.WriteLine("Good night.");
-        }
-
-        bool gameOver = false;
-        Console.WriteLine("Game over = {0}", gameOver);
-
+        byte month = 12;
+        byte day = 10;
+        short year = 2016;
+        
     }
 }
